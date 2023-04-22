@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: com.revature.integrationTests.AlllergyIntegrationTests
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 1, Errors: 1, Skipped: 0, Time elapsed: 7.687 s <<< FAILURE! - in com.revature.integrationTests.AlllergyIntegrationTests
+getAllAllergiesTest  Time elapsed: 0.63 s  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "java.util.List.size()" because "found" is null
+	at com.revature.integrationTests.AlllergyIntegrationTests.getAllAllergiesTest(AlllergyIntegrationTests.java:60)
+
+getAllergytByIdTest  Time elapsed: 0.1 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <smoke> but was: <null>
+	at com.revature.integrationTests.AlllergyIntegrationTests.getAllergytByIdTest(AlllergyIntegrationTests.java:49)
+
